@@ -2,7 +2,7 @@
 System for testing performance in SABnzbd code changes
 
 Usage:
-- Clone  to the same directory as sabnzbd is cloned to.
+- Clone to the same directory as sabnzbd is cloned to.
 - Edit paths in dirconfig
 - Make a category in SABnzbd with the path sabtest
 - Copy the nzb you want to use for testing to sabtest/test.nzbd.gz
@@ -16,3 +16,4 @@ Warning:
 
 Run using
 ./testall.sh
+
