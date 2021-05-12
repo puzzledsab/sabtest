@@ -1,0 +1,4 @@
+QUEUEFILE=$HOME/.sabnzbd/admin/queue10.sab
+INCOMPLETE=$HOME/Downloads/incomplete/
+COMPLETE=$HOME/Downloads/complete/
+INCOMING=$HOME/Downloads/incoming/
