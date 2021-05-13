@@ -11,6 +11,5 @@ for a in "$@"; do
   rm -rf $COMPLETE/sabtest/test*
   cp -r "$a"/* ../../sabnzbd/ || (echo Could not copy $a to sabnzbd dir; exit 1)
   sleep 5
-  echo ../bin/timetest.sh ../test.nzb.gz ../sabtest/results/"$a" || exit 1
   ../bin/timetest.sh ../test.nzb.gz ../sabtest/results/"$a" || exit 1
 done
