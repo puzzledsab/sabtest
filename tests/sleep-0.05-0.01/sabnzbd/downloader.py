@@ -547,8 +547,9 @@ class Downloader(Thread):
         next_bpsmeter_update = 0
 
         # Timers for checking can_be_slowed
-        can_be_slowed_timer: float = 1.0
+        can_be_slowed_timer: float = 0
         next_stable_speed_check: float = 0.0
+        self.can_be_slowed = 1
 
         # Check server expiration dates
         check_server_expiration()
